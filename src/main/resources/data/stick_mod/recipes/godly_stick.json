@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "234",
+    "915",
+    "876"
+  ],
+  "key": {
+    "1": {
+      "item": "stick_mod:netherite_stick"
+    },
+    "2": {
+      "item": ""
+    },
+    "3": {
+      "item": "minecraft:elytra"
+    },
+    "4": {
+      "item": ""
+    },
+    "5": {
+      "item": ""
+    },
+    "6": {
+      "item": ""
+    },
+    "7": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "8": {
+      "item": ""
+    },
+    "9": {
+      "item": ""
+    }
+  },
+  "result": {
+    "item": "stick_mod:godly_stick"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "212",
+    "111",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "stick_mod:stick_stick"
+    }
+  },
+  "result": {
+    "item": "stick_mod:stick_block"
+  }
+}

@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tHe_bAgeL.stickmod.block.ModBlocks;
 import net.tHe_bAgeL.stickmod.item.ModCreativeModeTabs;
 import net.tHe_bAgeL.stickmod.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class StickMod
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -45,11 +47,11 @@ public class StickMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.COMBAT){
-            event.accept(ModItems.BEEGSTICK);
+            event.accept(ModItems.BEEG_STICK);
         }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.STICKSTICK);
+            event.accept(ModItems.STICK_STICK);
         }
     }
 

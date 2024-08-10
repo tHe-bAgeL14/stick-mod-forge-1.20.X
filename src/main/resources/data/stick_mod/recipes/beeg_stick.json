@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "212",
+    "131",
+    "212"
+  ],
+  "key": {
+    "1": {
+      "item": "stick_mod:reinforced_stick_block"
+    },
+    "2": {
+      "item": "stick_mod:stick_block"
+    },
+    "3": {
+      "item": "stick_mod:netherite_stick"
+    }
+  },
+  "result": {
+    "item": "stick_mod:beeg_stick"
+  }
+}

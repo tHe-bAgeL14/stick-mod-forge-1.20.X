@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "stick_mod:item/stickstick"
+    "layer0": "stick_mod:item/stone_stick"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "stick_mod:item/amethyst_stick"
+  }
+}
